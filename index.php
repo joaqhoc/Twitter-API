@@ -14,10 +14,10 @@ require_once("twitteroauth/twitteroauth.php");
 //Configuracion
 $twitterID = (isset($_REQUEST['twitterUsername']) && !empty($_REQUEST['twitterUsername']))?$_REQUEST['twitterUsername']:"Joaqho";
 $tweetNum = 10;
-$consumerKey = "dky5k7FbZE65WWJc6AkZLrddB";
-$consumerSecret = "HUclU1xTLp33CvLuIOr5TZnqBOoyXZsZHID4GvL4YujXqPZPqV";
-$accessToken = "1412166218-O1gOc3tOxBH1izl29J6nIHQNhcjjtUxSxznsSaJ";
-$accessTokenSecret = "yKOkOHEQDOxIcan6atxIIklY448tNhHw69P3UYavtMpQe"; 
+$consumerKey = " COSUMER KEY ";
+$consumerSecret = " SECRET COSUMER KEY";
+$accessToken = " ACCESS TOKEN ";
+$accessTokenSecret = " ACCESS TOKEN SECRET "; 
 if($twitterID && $consumerKey && $consumerSecret && $accessToken && $accessTokenSecret) {
       //Autenticación con twitter
       $twitterConnection = new TwitterOAuth(
