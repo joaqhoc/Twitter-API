@@ -8,7 +8,7 @@ Programado en PHP y cURL.
 ### EDITAR
 
 ```
-** Index.php **
+**Index.php**
 $tweetNum = 10;  // Cantidad de Tweets que se muestran
 ```
 
